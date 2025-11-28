@@ -28,10 +28,11 @@ This project demonstrates the intersection of **game development, player telemet
 ## 📦 Project Structure
 
 ```
-├── Assets/                 # Unity assets, sprites, scenes
-├── Scripts/               # C# scripts controlling gameplay
-├── Firebase/ (ignored)    # Sensitive config
-├── analytics/             # Python notebooks + visualization scripts
+├── Game
+   ├── Assets/                # Unity assets, sprites, scenes
+   ├── Scripts/               # C# scripts controlling gameplay
+   ├── Firebase/ (ignored)    # Sensitive config
+├── Analytics/             # Python notebooks + visualization scripts
 ├── requirements.txt       # Python dependencies (analytics only)
 └── README.md
 ```
